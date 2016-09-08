@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'refile/fog/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "refile-fog"
+  spec.name          = "leifcr-refile-fog"
   spec.version       = Refile::Fog::VERSION
   spec.authors       = ["Jonas Nicklas"]
   spec.email         = ["jonas.nicklas@gmail.com"]
