@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "refile"
+  spec.add_dependency "leifcr-refile"
   spec.add_dependency("fog-core", "~> 1.42")
   spec.add_dependency("fog-json")
   spec.add_dependency("fog-xml", "~> 0.1.1")
